@@ -11,6 +11,7 @@ import prettier from 'eslint-plugin-prettier';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import stylelint from 'eslint-plugin-stylelint';
 import globals from 'globals';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -47,6 +48,7 @@ export default [
       'simple-import-sort': simpleImportSort,
       import: importPlugin,
       prettier,
+      stylelint,
     },
 
     languageOptions: {
@@ -171,6 +173,6 @@ export default [
     },
   },
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.scss'],
   },
 ];
