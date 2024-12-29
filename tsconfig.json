@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es6",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+    },
+    "types": ["react", "react-dom"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "eslint.config.mjs",
+    "./webpack/webpack.common.js",
+    "./webpack/webpack.dev.js",
+    "./webpack/webpack.prod.js",
+    "node_modules/@types"
+  ],
+  "exclude": ["node_modules"],
+}
