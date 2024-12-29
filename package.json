@@ -8,6 +8,8 @@
     "build": "webpack --config webpack/webpack.prod.js"
   },
   "dependencies": {
+    "html-to-image": "^1.11.11",
+    "jspdf": "^2.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -21,6 +23,7 @@
     "@eslint/js": "^9.17.0",
     "@types/react": "18",
     "@types/react-dom": "18",
+    "@types/yup": "^0.32.0",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "babel-loader": "^9.2.1",
@@ -42,6 +45,7 @@
     "eslint-plugin-stylelint": "^0.1.1",
     "eslint-webpack-plugin": "^4.2.0",
     "favicons-webpack-plugin": "^6.0.1",
+    "formik": "^2.4.6",
     "globals": "^15.14.0",
     "html-webpack-plugin": "^5.6.3",
     "prettier": "^3.4.2",
@@ -59,6 +63,7 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0",
-    "webpack-merge": "^6.0.1"
+    "webpack-merge": "^6.0.1",
+    "yup": "^1.6.1"
   }
 }
