@@ -8,6 +8,7 @@
     "build": "webpack --config webpack/webpack.prod.js"
   },
   "dependencies": {
+    "favicons": "^7.2.0",
     "jspdf": "^2.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
