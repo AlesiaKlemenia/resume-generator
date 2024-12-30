@@ -8,7 +8,6 @@
     "build": "webpack --config webpack/webpack.prod.js"
   },
   "dependencies": {
-    "html-to-image": "^1.11.11",
     "jspdf": "^2.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
