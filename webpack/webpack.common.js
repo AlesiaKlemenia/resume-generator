@@ -56,7 +56,8 @@ module.exports = {
       ],
     }),
     new FaviconsWebpackPlugin({
-      logo: 'public/favicon.ico',
+      logo: 'public/favicon.png',
+      mode: 'webapp',
       inject: true,
     }),
   ],
